@@ -7,10 +7,9 @@ The user's emotions are passed to ChatGPT to provide a more tailored response.
 
 Since this is a Python project, you will need to do some setup before you can run the application.
 
-Before downloading the files, setup the python intepreter from the document "731 Environment setup instructions" which can be found in the provided screenshot:
+Before downloading the files, setup the python intepreter from the document "Enviroment_setup_instructions.pdf" which can be found in the project files:
 NOTE: We used a different Pytorch version for compatility. Use this command instead:
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
-![alt text](filelocation.png)
 
 Ensure the Cuda files are installed in your .....path....\anaconda\envs\cs731\Library\ bin, include and lib locations.
 If not try manually download and add from https://developer.nvidia.com/cudnn-downloads
@@ -24,7 +23,7 @@ python main.py
 ```
 
 Note: ensure your root directory is the root of the repository in order to run the commands mentioned above.
-Note: In order for the application to access OpenAI, an API key is required. Please email us so we can send the API key to the marker
+Note: In order for the application to access OpenAI, an API key is required. Please set this up in your own .env file.
 
 If you want to add your own images, you can run the auto_splitter.py code to help you get your files into the correct folders.
 Change the file paths in the code to the location of your images and desired output folders.
