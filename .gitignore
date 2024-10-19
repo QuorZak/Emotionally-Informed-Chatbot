@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Facial_Detection/__pycache__/
+/Facial_Detection/__pycache__/inference.cpython-39.pyc
+/Model_Training/inputs_and_outputs/*
+/Model_Training/inputs_and_outputs/
+/Model_Training/inputs_and_outputs
+.env
+
+*.pyc
+/OpenAI/temp_audio.wav
+
